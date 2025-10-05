@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional freelancer portfolio template showcasing projects and contact information.">
+    <meta name="keywords" content="freelancer, portfolio, website template, responsive">
+    <meta name="author" content="Your Brand Name">
+    <title>Freelancer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Favicon (replace with your own) -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <h1 class="logo">Portfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" role="banner">
+        <div class="container">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Freelance [Your Skill] creating impactful solutions for your business.</p>
+            <a href="#contact" class="cta-button" role="button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects" aria-label="Project showcase">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1" loading="lazy">
+                    <h3>Project One</h3>
+                    <p>A modern web app built with cutting-edge tech.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2" loading="lazy">
+                    <h3>Project Two</h3>
+                    <p>E-commerce site with seamless user experience.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3" loading="lazy">
+                    <h3>Project Three</h3>
+                    <p>Portfolio site designed for freelancers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" aria-label="Contact form">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/your-form-id" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required aria-required="true">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required aria-required="true">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required aria-required="true"></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="container">
+            <p>&copy; 2025 Aradhay Sharma . All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
